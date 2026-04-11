@@ -39,7 +39,7 @@ nav a:hover {
   color: black;
 }
 
-nav a:active {
+nav a.active {
   background-color: white;
   color: black;
 }
@@ -60,7 +60,7 @@ nav a:active {
   background: rgba(0, 0, 0, 0.4);
 }
 
-@media (mac-width: 600px) {
+@media (max-width: 600px) {
   .hero-text {
     position: absolute;
     bottom: 10%;
@@ -74,10 +74,20 @@ nav a:active {
     margin: 0;
   }
 }
+  .hero-text {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    z-index: 1;
+  }
 main {
   padding: 20px;
   max-width: 1000px;
   margin: auto;
+}
+main h2 {
+  text-align: center;
 }
 
 footer p {
