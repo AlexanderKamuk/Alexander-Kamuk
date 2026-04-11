@@ -1,38 +1,38 @@
 body {
-    background-color: antiquewhite;
-    margin: 0;
+  background-color: white;
+  margin: 0;
 }
 
 h1 {
-     text-align: center; 
-     font-family: Impact, sans-serif;
-     margin-top: 10px;
+  text-align: center;
+  font-family: Impact, sans-serif;
+  margin-top: 10px;
 }
 img {
-    display: block;
-    margin: 20px auto;
-    width: 800px;
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  width: 800px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
 }
 
 nav {
-    text-align: center;
-    background-color: black;
-    padding: 10px;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-    padding: 8px 12px;
-    border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
