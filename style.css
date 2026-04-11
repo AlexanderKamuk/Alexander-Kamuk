@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  background-color: #111;
+  color: white;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: white;
+  background-color: gold;
   color: black;
 }
 
@@ -105,4 +106,8 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+footer nav {
+  background-color: #222;
 }
