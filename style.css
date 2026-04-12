@@ -47,13 +47,14 @@ nav a.active {
 }
 
 .hero {
-  background-image: url(images/alexander_med_kort.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  position: relative;
+position: relative;
+text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .hero::before {
   content: "";
