@@ -47,12 +47,15 @@ nav a.active {
 }
 
 .hero {
+  overflow: hidden;
+  background-color: black;
   background-image: url(images/alexander_med_kort.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100%;
   position: relative;
 }
 .hero::before {
