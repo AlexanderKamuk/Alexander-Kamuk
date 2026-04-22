@@ -50,7 +50,7 @@ nav a.active {
   overflow: hidden;
   background-image: url(images/alexander_med_kort.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   background-position: center;
 
