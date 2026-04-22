@@ -51,7 +51,7 @@ nav a.active {
   background-image: url(images/alexander_med_kort.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 
   height: 100vh;
