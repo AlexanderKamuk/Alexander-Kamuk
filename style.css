@@ -48,7 +48,6 @@ nav a.active {
 
 .hero {
   overflow: hidden;
-  background-color: black;
   background-image: url(images/alexander_med_kort.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -65,6 +64,13 @@ nav a.active {
   background: rgba(0, 0, 0, 0.4);
 }
 
+.hero-text {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: white;
+  z-index: 1;
+}
 @media (max-width: 600px) {
   .hero-text {
     position: absolute;
@@ -79,13 +85,6 @@ nav a.active {
     margin: 0;
   }
 }
-.hero-text {
-  position: absolute;
-  bottom: 20%;
-  left: 10%;
-  color: white;
-  z-index: 1;
-}
 main {
   padding: 20px;
   max-width: 1000px;
@@ -98,12 +97,13 @@ main h2 {
 main h3 {
   text-align: center;
 }
+
 footer p {
   text-align: center;
   font-weight: bold;
   margin-top: 40px;
   padding: 20px 0;
-  background-color: #f5f5f5;
+  background-color: white;
 }
 
 footer p a {
@@ -123,5 +123,5 @@ footer nav a:hover {
 }
 
 footer nav {
-  background-color: #222;
+  background-color: black;
 }
