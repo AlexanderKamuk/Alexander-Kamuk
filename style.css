@@ -68,6 +68,19 @@ nav a.active {
 }
 
 @media (max-width: 600px) {
+  .hero {
+    background-image: url(images/alexander_med_kort.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* important for mobile */
+    background-size: cover;
+    background-position: center;
+
+    height: 80vh;
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+  }
   .hero-text {
     position: absolute;
     bottom: 10%;
@@ -100,7 +113,7 @@ footer p {
 }
 
 footer a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
