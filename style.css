@@ -51,7 +51,8 @@ nav a.active {
   background-image: url(img/alexander_med_kort.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 
 
   height: 100vh;
@@ -60,7 +61,7 @@ nav a.active {
   position: relative;
 
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .hero::before {
   content: "";
@@ -71,7 +72,7 @@ nav a.active {
 .hero-text {
   position: relative;
   padding: 20px;
-  color: black;
+  color: whitesmoke;
   z-index: 1;
   max-width: 900px;
 }
