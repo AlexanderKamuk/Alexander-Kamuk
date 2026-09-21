@@ -48,7 +48,7 @@ nav a.active {
 
 .hero {
   overflow: hidden;
-  background-image: url(images/alexander_med_kort.jpg);
+  background-image: url(img/alexander_med_kort.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
