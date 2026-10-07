@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: gold;
+  background-color: whitesmoke;
   color: black;
   text-decoration: underline;
 }
